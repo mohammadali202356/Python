@@ -20,3 +20,31 @@ if num1<num2:
   print (num1)
 else:
   print (num2)
+
+
+
+
+Bristi_hosse = False
+mat_bheja = False
+player_nai = False
+
+if Bristi_hosse == True:
+    if mat_bheja == False:
+        if player_nai == True:
+         print("we can play football")         
+else: 
+    print("we can not play football")
+   
+
+
+
+Aj_sukrobar = True
+Bristi_hosse = True
+Rastai_kada = True
+
+if Aj_sukrobar == True:
+   if Bristi_hosse == True:
+     if Rastai_kada == True:
+       print("Namaz porte jabo")
+else:
+   print("Namaz porte jabo na")
