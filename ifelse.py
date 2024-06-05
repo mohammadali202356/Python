@@ -48,3 +48,68 @@ if Aj_sukrobar == True:
        print("Namaz porte jabo")
 else:
    print("Namaz porte jabo na")
+
+
+
+
+
+
+num = 100 
+if num >200:
+    print(f"{num} is greater than 50")
+else:
+    print(f"{num} is not greater than 50")
+    
+    
+    
+num1 = 15
+num2 = 25
+if num1<num2:
+  print (num1)
+else:
+  print (num2)
+
+
+age =5
+if age >= 30:
+    print ("you are an adult")
+elif age != 16:
+    print ("you are a teen ager")
+else:
+    print("you are not an adult")
+
+
+name1 = input("orio ")
+age1 = input("17 ")
+name2 = input("mohammod ")
+age2 = input("18 ")
+if int(age1) > int(age2):
+    print(f"{name1} is older then {name2}")
+
+else:
+    print(f"{name2} is older then {name1}")    
+
+
+taka_ase = True
+Rain = True
+bus_nai = False
+if taka_ase == True:
+    if Rain == True:
+         if bus_nai == False:          
+          print("I will go to Dhaka")  
+else:  
+    print("I will not go to Dhaka")  
+
+
+
+
+
+name1 = input("orio ")
+age1 = input("20")
+name2 = input("mohammad")
+age2 = input("18")
+if int(age1) < int(age2):
+    print(f"{name1} is older then {name2}")
+else:
+    print(f"{name2} is older then {name1}")
+
