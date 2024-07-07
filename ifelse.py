@@ -113,3 +113,27 @@ if int(age1) < int(age2):
 else:
     print(f"{name2} is older then {name1}")
 
+
+
+#Boolean type data
+Mark1 = 100
+Mark2 = 80
+print (Mark1 > Mark2)
+
+
+Num = 2.02
+num = 2
+print (Num == num)
+
+
+
+#Binary type data
+List = [1,2,3,5,7,254]
+L = bytes(List)
+print(type(L))
+
+
+List = [1,2,3,5,7,254]
+l = bytearray(List)
+l[2]= 30
+print(l[2])
