@@ -1,0 +1,109 @@
+#Variable
+X = "Hello World"
+string=X
+Print=string
+again=Print
+print(again)
+
+
+#Variable Assignment
+NumOfBooks=50
+Price=60
+total= NumOfBooks * Price
+print('Total price is',total)
+
+
+
+
+Name =input("Enter your name,:")
+print('your name is',Name)
+Eng,Bang,Math=96,99,92
+print('your English mark is',Eng )
+print('your Bangla mark is',Bang)
+print('Your math mark is',Math)
+
+
+#Variable Reassignment
+num1=18
+num2=10
+num3=num2
+num4=num1
+total=num1+num2+num3+num4
+print('Total number is',total )
+
+
+#Multiple Assignment
+name,age,height="orio",17,6
+print('My Name, Age and Height is:',name,age,height)
+
+
+
+#Augmented Assignment
+a=10
+a += 18  #a=a+18
+b=50
+b -= 18  #b=b-18
+total=a+b
+print('Total number is', total)
+
+
+
+
+#Varable Type
+num=17
+print(type(num))
+
+
+num1=93.898
+print(type(num1))
+
+
+num2="Orio"
+print(type(num2))
+
+
+num3=False
+print(type(num3))
+
+
+num4=True
+print(type(num4))
+
+
+
+
+#Type Conversion (Casting)
+Num1 = input("Enter your mark in english:")
+Num2 = input("Enter your mark in bangla:")
+Num3 = input("Enter your mark in Math:")
+
+result = int(num1) + int(Num2) + int(Num3)
+print ("Your total mark is",result)
+
+
+
+Num1 = int(input("Enter your mark in english:"))
+Num2 = int(input("Enter your mark in bangla:"))
+Num3 = int(input("Enter your mark in Math:"))
+
+result = num1 + Num2 + Num3
+print ("Your total mark is",result)
+
+
+
+
+Num1 = input("Enter your mark in english:")
+Num2 = input("Enter your mark in bangla:")
+Num3 = input("Enter your mark in Math:")
+
+result = int(num1) + int(Num2) + int(Num3)
+print ("Your total mark is",result)
+
+result = float(num1) - float(Num2) - float(Num3)
+print ("Your total mark is",result)
+
+result = bool(num1) * bool(Num2) * bool(Num3)  #True=1 / False=0
+print ("Your total mark is",result)
+
+
+
